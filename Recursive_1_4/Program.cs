@@ -11,7 +11,7 @@ namespace Recursive_1_4
         static void Main(string[] args)
         {
             // Test: 20 - Result: 2
-            int number = 828282282;
+            int number = 2147483647;
             Console.WriteLine("The number of significant digits for {0} is {1}.", number, SignificantDigits(number));
         }
 

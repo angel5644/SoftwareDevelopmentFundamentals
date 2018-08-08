@@ -21,6 +21,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HandlingExceptions_1_3", "H
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Recursive_1_4", "Recursive_1_4\Recursive_1_4.csproj", "{F431804A-1565-49F3-A19F-4FFDE7161517}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lesson02", "Lesson02\Lesson02.csproj", "{C495173C-7006-4861-B2A0-2F604502B6C3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{F431804A-1565-49F3-A19F-4FFDE7161517}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F431804A-1565-49F3-A19F-4FFDE7161517}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F431804A-1565-49F3-A19F-4FFDE7161517}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C495173C-7006-4861-B2A0-2F604502B6C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C495173C-7006-4861-B2A0-2F604502B6C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C495173C-7006-4861-B2A0-2F604502B6C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C495173C-7006-4861-B2A0-2F604502B6C3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
