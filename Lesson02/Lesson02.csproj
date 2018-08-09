@@ -43,12 +43,27 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Inheritance\Derived\Rectangle.cs" />
+    <Compile Include="Inheritance\Abstract\Polygon.cs" />
+    <Compile Include="Inheritance\Abstract\Rectangle.cs" />
+    <Compile Include="Inheritance\Sealed\Polygon.cs" />
+    <Compile Include="Inheritance\Sealed\Rectangle.cs" />
+    <Compile Include="Inheritance\Derived\Polygon.cs" />
+    <Compile Include="Interfaces\Rectangle.cs" />
+    <Compile Include="Interfaces\IComparable.cs" />
+    <Compile Include="Interfaces\Polygon.cs" />
+    <Compile Include="Polymorphism\New\Triangle.cs" />
+    <Compile Include="Polymorphism\Polygon.cs" />
+    <Compile Include="Polymorphism\Triangle.cs" />
+    <Compile Include="Polymorphism\Rectangle.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Rectangle.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Encapsulation\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
